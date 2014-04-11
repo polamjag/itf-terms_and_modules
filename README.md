@@ -1,7 +1,5 @@
 # Itf::TermsAndModules
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,12 +15,11 @@ Or install it yourself as:
     $ gem install itf-terms_and_modules
 
 ## Usage
-
-TODO: Write usage instructions here
+`p Itf::TermsAndModules.terms_from_module :SpringA # => [:SpringA, :SpringAB, :SpringABC]`
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/itf-terms_and_modules/fork )
+1. Fork it ( http://github.com/polamjag/itf-terms_and_modules/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
